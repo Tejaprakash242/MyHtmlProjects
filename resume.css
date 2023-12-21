@@ -8,7 +8,6 @@ h1 {
 p {
   color: #333333;
 }
-
 .headings {
   font-size: 15px;
   margin-bottom: 15px;
@@ -27,7 +26,6 @@ p {
   margin: 20px; /* Optional: Add margin around the div */
   border-radius: 0px;
 }
-
 .linkedin-profile-image {
   max-width: 100%;
   border-radius: 0%;
@@ -36,7 +34,6 @@ p {
   height: 120px;
   width: 120px;
 }
-
 /* Optional: Add some basic styling to the table */
 table {
   width: 42%;
@@ -44,7 +41,6 @@ table {
   margin-top: 15px;
   margin-left: 15px;
 }
-
 th,
 td {
   border: 1px solid #333;
