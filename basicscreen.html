@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="basicscreen.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      label {
+        display: inline;
+        margin-bottom: 8px;
+      }
+
+      input,
+      textarea {
+        width: 60%;
+        padding: 2px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        margin-top: 20px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+      .bordered-div {
+        width: 500px;
+        height: 200px;
+        border: 1px solid #333;
+        padding: 20px;
+        margin: 60px;
+        border-radius: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Basic Screen Interface</h1>
+    </header>
+    <div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="file:///C:/Users/Lenovo/Desktop/resume.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="sticky.html">Back</a></li>
+      </ul>
+    </div>
+    <h1>Feedback Form</h1>
+    <div style="text-align: left">
+      <form action="submit_feedback.php" method="post">
+        <div style="display: flex">
+          <div style="width: 120px; margin-top:18px" for="name">Name:</div>
+          <input
+            type="text"
+            ;margin-top:
+            20px;
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 20px" for="email">Email:</div>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 20px" for="mobile number">
+            mobile number:
+          </div>
+          <input
+            type="text"
+            id=" mobile number"
+            name="mobile number"
+            required
+          />
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 20px">Remark:</div>
+          <input type="text" id="Remark" name="Remark" required />
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 20px">Gender:</div>
+          <div style="display: flex; margin-left: 10px">
+            <div style="display: flex; margin-left: -12px">
+              <input type="radio" name="gender" value="male" required />
+              <span style="margin-left: 5px; margin-top: 18px">Male</span>
+            </div>
+            <div style="display: flex; margin-left: 10px">
+              <input type="radio" name="gender" value="female" />
+              <span style="margin-left: 5px; margin-top: 18px">Female</span>
+            </div>
+            <div style="display: flex; margin-left: 10px">
+              <input type="radio" name="gender" value="other" />
+              <div style="margin-left: 5px; margin-top: 18px">other</div>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 20px">Skills:</div>
+          <div style="display: flex">
+            <input type="checkbox" name="skills" value="html" />
+            <span style="margin-left: 5px; margin-top: 18px">HTML</span>
+          </div>
+          <div style="display: flex">
+            <input type="checkbox" name="skills" value="css" />
+            <span style="margin-left: 5px; margin-top: 18px">CSS</span>
+          </div>
+          <div style="display: flex">
+            <input type="checkbox" name="skills" value="javascript" />
+            <span style="margin-left: 5px; margin-top: 18px">JavaScript</span>
+          </div>
+          <div style="display: flex">
+            <input type="checkbox" name="skills" value="python" />
+            <span style="margin-left: 5px; margin-top: 18px">Python</span>
+          </div>
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 25px">Graduation:</div>
+          <select id="graduation" name="graduation" required style="margin-top: 20px; height: 30px; width: 300px">
+            <option value="" disabled selected>Select your graduation</option>
+            <option value="highschool">High School</option>
+            <option value="associate">Associate's Degree</option>
+            <option value="bachelor">Bachelor's Degree</on>
+            <option value="associate">Associate's Degree</option>
+            <option value="bachelor">Bachelor's Degree</option>
+            <option value="master">Master's Degree</option>
+            <option value="doctorate">Doctorate</option>
+          </select>
+        </div>
+        <div style="display: flex">
+          <div style="width: 120px; margin-top: 25px">Academic Year:</div>
+          <select id="academicYear" name="academicYear" required style="margin-top: 20px; height: 30px; width: 300px">
+            <option value="" disabled selected>
+              Select your current academic year
+            </option>
+            <option value="firstYear">First Year</option>
+            <option value="secondYear">Second Year</option>
+            <option value="thirdYear">Third Year</option>
+            <option value="fourthYear">Fourth Year</option>
+          </select>
+        </div>
+        <div style="display: flex">
+          <button style="margin-left: 250px; margin-top: 20px; margin-bottom: 15px;">Save</button>
+          <button style="margin-left: 40px; margin-top: 20px; margin-bottom: 15px">cancel</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2023 Basic Screen Interface</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: greenyellow;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  padding: 0px;
+  margin: 100px;
+  display: block;
+}
